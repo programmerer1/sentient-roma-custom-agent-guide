@@ -22,7 +22,6 @@ Now, let’s add our agent:
       provider: "litellm"
       model_id: "openrouter/google/gemini-2.0-flash-exp:free"
     prompt_source: "prompts.executor_prompts.BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE"
-    response_model: "PlanOutput"
     registration:
       action_keys:
         - action_verb: "execute"
