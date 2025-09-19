@@ -89,12 +89,14 @@ Enter a prompt, for example: Business idea for $1,000, and start configuring it.
 2.
 ![Config 2](2.png)
 
-3. Во вкладке Agent Profile, выбираем DeepResearchAgent. Как видим, наш агент указан как по умолчанию
+3. In the Agent Profile tab, select DeepResearchAgent. As we can see, our agent is set as the default.
 ![Config 3](3.png)
 
 4.
 ![Config 4](4.png)
 
-Click Create Project.
-Here’s the result I got:
+
+**Click Create Project.
+Here’s the result I got:**
+
 ![Config 5](5.png)
