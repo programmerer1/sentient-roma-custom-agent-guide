@@ -79,6 +79,12 @@ to the name of our agent:
     SEARCH: "BusinessIdeaGenerator"
 ```
 
+After applying the changes, restart the containers:
+```bash
+docker compose -f docker-compose.yml down
+docker compose -f docker-compose.yml up -d
+```
+
 Next, go to http://localhost:3000/.
 
 Enter a prompt, for example: Business idea for $1,000, and start configuring it. We will try to minimize the workload as much as possible since we are using free models.
