@@ -33,8 +33,8 @@ Now, let’s add our agent:
 In this example, we specify the free model openrouter/google/gemini-2.0-flash-exp:free, but you can choose any model that suits you.
 
 Notice the line:
-prompt_source: "prompts.executor_prompts.BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE". This is the agent’s system prompt. 
-We need to add a prompt named BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE inside the file ROMA/src/sentientresearchagent/hierarchical_agent_framework/agent_configs/prompts/executor_prompts.yaml. 
+**prompt_source: "prompts.executor_prompts.BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE"**. This is the agent’s system prompt. 
+We need to add a prompt named **BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE** inside the file **ROMA/src/sentientresearchagent/hierarchical_agent_framework/agent_configs/prompts/executor_prompts.yaml**. 
 Open this file and add it at the very end:
 ```bash
 BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE = f"""You are an expert in entrepreneurship, innovation, and modern technologies. Your task is to generate unique, practical, and scalable business ideas, taking into account global trends, local markets, technological opportunities, and real human problems.
@@ -64,7 +64,7 @@ BUSINESS_IDEA_GENERATOR_EXECUTOR_SYSTEM_MESSAGE = f"""You are an expert in entre
 Always provide ideas in a clear, structured, and easy-to-read format using numbered lists with subpoints where needed."""
 ```
 
-Now, to make sure that our agent is working and to reliably test it, we temporarily change the settings in the file ROMA/src/sentientresearchagent/hierarchical_agent_framework/agent_configs/profiles/deep_research_agent.yaml.
+Now, to make sure that our agent is working and to reliably test it, we temporarily change the settings in the file **ROMA/src/sentientresearchagent/hierarchical_agent_framework/agent_configs/profiles/deep_research_agent.yaml**.
 
 Change this line:
 ```bash
